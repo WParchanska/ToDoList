@@ -17,7 +17,7 @@ public class Program // stworzona klasa program, grupuje kod w logike
 {
     private static void Main(string[] args) // metoda main, punkt startowy mojego programu, void oznacza ze nie zwraca wartosci 
     {
-        List<TaskItem> tasks = new List<TaskItem>();
+        List<TaskItem> tasks = new List<TaskItem>(); // pusta lista, bedzie przechowywac obiekty taskitem
      
        while (true) // petla w nieskonczonosc, powoduje ze moj program bedzie działał do momentu przerwania "break" czyli po ukonczeniu z listy ostaniego zadania 
     {  
@@ -31,18 +31,32 @@ public class Program // stworzona klasa program, grupuje kod w logike
        {
         
         Console.Write("Enter task description");
-       string description = Console.ReadLine();
-       TaskItem newTask = new TaskItem(description);  // Tworzymy nowy obiekt TaskItem z podanym opisem
-        tasks.Add(newTask); //   // Dodajemy nowo utworzony obiekt TaskItem do listy tasks
+       string description = Console.ReadLine(); // odczytuje wprowadzony przez uzytkownika zapis
+       TaskItem newTask = new TaskItem(description);  // tworzy nowy obiekt TaskItem z podanym opisem
+        tasks.Add(newTask); //   // dodaje nowo utworzony obiekt TaskItem do listy tasks
         Console.WriteLine("Task added");
        }
 
 
-       else if (choice == "2")
+       else if (choice == "2") // opcja przeglądania zadań 
 
 {
+        if (tasks.Count == 0)
+        {
+            Console.WriteLine("No tasks available.");
+        }
+        else 
+        {
+            Console.WriteLine("Tasks:");
 
-    Console.WriteLine(" You chose to view tasks");
+            for (int i = 0; i < tasks.Count; i++) // pętla for-pozwala na wielokrotne wykonanie określonego bloku kodu, gdy spełniony jest określony warunek (inicjalizacja; warunek; inkrementacja)
+            {
+                var task = tasks[i]; // pobieram element z listy tasks o indeksie i i przypisuje go do zmiennej task, var, kompilator automatycznie okresli typ zmiennej na podstawie przypisanej wartosci
+                string status = task.IsCompleted ? "[Completed]" : "[Not Completed]"; // uzywam operatora warunkowego do przypisania wartosci do zmiennej status, check czy wlasciwosc IsCompleted obiektu task jest true(completed) czy false(not completed)
+                Console.WriteLine($"{i +1}. {task.TaskDescription} {status}"); // wyswietlenie informacji o zadaniu w formacie: numer, opis, status, {i + 1}: dodaje 1 do indeksu i - numeracja zadan zaczyna sie od 1, indeksy w liscie od 0, {task.TaskDescription}: opis zadania, odwolujac sie do wlasciwosci TaskDescription obiektu task, status okreslony w poprzedniej linii
+            }
+        }
+    
 
 }
 

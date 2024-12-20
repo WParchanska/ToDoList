@@ -1,12 +1,13 @@
+/Users/anonim/Desktop/to do list/ToDoList/obj/Debug/net8.0/ToDoList.GeneratedMSBuildEditorConfig.editorconfig
+/Users/anonim/Desktop/to do list/ToDoList/obj/Debug/net8.0/ToDoList.AssemblyInfoInputs.cache
+/Users/anonim/Desktop/to do list/ToDoList/obj/Debug/net8.0/ToDoList.AssemblyInfo.cs
+/Users/anonim/Desktop/to do list/ToDoList/obj/Debug/net8.0/ToDoList.csproj.CoreCompileInputs.cache
+/Users/anonim/Desktop/to do list/ToDoList/obj/Debug/net8.0/ToDoList.sourcelink.json
 /Users/anonim/Desktop/to do list/ToDoList/bin/Debug/net8.0/ToDoList
 /Users/anonim/Desktop/to do list/ToDoList/bin/Debug/net8.0/ToDoList.deps.json
 /Users/anonim/Desktop/to do list/ToDoList/bin/Debug/net8.0/ToDoList.runtimeconfig.json
 /Users/anonim/Desktop/to do list/ToDoList/bin/Debug/net8.0/ToDoList.dll
 /Users/anonim/Desktop/to do list/ToDoList/bin/Debug/net8.0/ToDoList.pdb
-/Users/anonim/Desktop/to do list/ToDoList/obj/Debug/net8.0/ToDoList.GeneratedMSBuildEditorConfig.editorconfig
-/Users/anonim/Desktop/to do list/ToDoList/obj/Debug/net8.0/ToDoList.AssemblyInfoInputs.cache
-/Users/anonim/Desktop/to do list/ToDoList/obj/Debug/net8.0/ToDoList.AssemblyInfo.cs
-/Users/anonim/Desktop/to do list/ToDoList/obj/Debug/net8.0/ToDoList.csproj.CoreCompileInputs.cache
 /Users/anonim/Desktop/to do list/ToDoList/obj/Debug/net8.0/ToDoList.dll
 /Users/anonim/Desktop/to do list/ToDoList/obj/Debug/net8.0/refint/ToDoList.dll
 /Users/anonim/Desktop/to do list/ToDoList/obj/Debug/net8.0/ToDoList.pdb

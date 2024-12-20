@@ -1,0 +1,5 @@
+/Users/anonim/Desktop/to do list/ToDoList/obj/Debug/net7.0/ToDoList.GeneratedMSBuildEditorConfig.editorconfig
+/Users/anonim/Desktop/to do list/ToDoList/obj/Debug/net7.0/ToDoList.AssemblyInfoInputs.cache
+/Users/anonim/Desktop/to do list/ToDoList/obj/Debug/net7.0/ToDoList.AssemblyInfo.cs
+/Users/anonim/Desktop/to do list/ToDoList/obj/Debug/net7.0/ToDoList.csproj.CoreCompileInputs.cache
+/Users/anonim/Desktop/to do list/ToDoList/obj/Debug/net7.0/ToDoList.sourcelink.json
